@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
+    <!-- Tagadelic CSS -->
+    <link type="text/css" rel="stylesheet" media="all" href="modules/tagadelic/tagadelic.css" />
+
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles-6.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,6 +26,16 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript" src="assets/js/jquery.js?I"></script>
+    <script type="text/javascript" src="modules/cumulus/cumulus.js?I"></script>  
+    <script type="text/javascript" src="assets/js/drupal.js?I"></script> 
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    jQuery.extend(Drupal.settings, { "basePath": "/" });
+    //--><!]]>
+    </script>
+
 </head> 
 
 <body>
@@ -44,6 +56,57 @@
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/ChiCharlesXu" target="_blank">@ChiCharlesXu</a></li>
                 </ul>
             </div><!--//contact-container-->
+
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Tags</h2>            
+                <div class="block block-cumulus">
+                    <div class="block-inner clear-block">
+                        <div class="content-wrapper">
+                            <div class="content">
+                                <div id="tags">
+                                    <a href="/?q=taxonomy/term/30" class="tagadelic level2" rel="tag">adhoc</a> 
+                                    <a href="/?q=taxonomy/term/44" class="tagadelic level2" rel="tag">cognitive radio</a> 
+                                    <a href="/?q=taxonomy/term/33" class="tagadelic level5" rel="tag">data aggregation</a> 
+                                    <a href="/?q=taxonomy/term/14" class="tagadelic level1" rel="tag">data dissemination</a> 
+                                    <a href="/?q=taxonomy/term/49" class="tagadelic level1" rel="tag">distributed storage</a> 
+                                    <a href="/?q=taxonomy/term/10" class="tagadelic level4" rel="tag">health monitoring</a> 
+                                    <a href="/?q=taxonomy/term/2" class="tagadelic level1" rel="tag">ISM</a> 
+                                    <a href="/?q=taxonomy/term/65" class="tagadelic level1" rel="tag">localization</a> 
+                                    <a href="/?q=taxonomy/term/20" class="tagadelic level3" rel="tag">location</a> 
+                                    <a href="/?q=taxonomy/term/37" class="tagadelic level2" rel="tag">mesh</a> 
+                                    <a href="/?q=taxonomy/term/57" class="tagadelic level2" rel="tag">monitoring</a> 
+                                    <a href="/?q=taxonomy/term/43" class="tagadelic level2" rel="tag">network monitoring</a> 
+                                    <a href="/?q=taxonomy/term/41" class="tagadelic level1" rel="tag">opportunistic routing</a> 
+                                    <a href="/?q=taxonomy/term/28" class="tagadelic level5" rel="tag">power management</a> 
+                                    <a href="/?q=taxonomy/term/42" class="tagadelic level1" rel="tag">rayleigh fading</a> 
+                                    <a href="/?q=taxonomy/term/1" class="tagadelic level4" rel="tag">resource management</a> 
+                                    <a href="/?q=taxonomy/term/35" class="tagadelic level7" rel="tag">sensor</a> 
+                                    <a href="/?q=taxonomy/term/107" class="tagadelic level1" rel="tag">sequential learning</a> 
+                                    <a href="/?q=taxonomy/term/4" class="tagadelic level10" rel="tag">cloud computing</a> 
+                                    <a href="/?q=taxonomy/term/59" class="tagadelic level2" rel="tag">wireless sensor networks</a> 
+
+                                    <script type="text/javascript">
+                                        var rnumber = Math.floor(Math.random()*9999999);
+                                        var widget_so = new SWFObject("modules/cumulus/cumulus.swf?r="+rnumber, "cumulusflash", "180", "180", "9", "4B6A78");
+
+                                        widget_so.addParam("allowScriptAccess", "always");
+                                        widget_so.addVariable("tcolor", "0xffffff");
+                                        widget_so.addVariable("tcolor2", "0xffffff");
+                                        widget_so.addVariable("hicolor", "0xffffff");
+                                        widget_so.addVariable("tspeed", "200");
+                                        widget_so.addVariable("distr", "true");
+                                        widget_so.addVariable("mode", "tags");
+                                      
+                                        widget_so.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F30%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3Eadhoc%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F44%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3Ecognitive+radio%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F33%22+style%3D%22%26quot%3Bfont-size%3A+18px%3B%26quot%3B%22%3Edata+aggregation%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F14%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Edata+dissemination%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F49%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Edistributed+storage%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F10%22+style%3D%22%26quot%3Bfont-size%3A+16px%3B%26quot%3B%22%3Ehealth+monitoring%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F2%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3EISM%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F65%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Elocalization%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F20%22+style%3D%22%26quot%3Bfont-size%3A+14px%3B%26quot%3B%22%3Elocation%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F37%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3Emesh%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F57%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3Emonitoring%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F43%22+style%3D%22%26quot%3Bfont-size%3A+12px%3B%26quot%3B%22%3Enetwork+monitoring%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F41%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Eopportunistic+routing%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F28%22+style%3D%22%26quot%3Bfont-size%3A+18px%3B%26quot%3B%22%3Epower+management%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F42%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Erayleigh+fading%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F1%22+style%3D%22%26quot%3Bfont-size%3A+16px%3B%26quot%3B%22%3Eresource+management%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F35%22+style%3D%22%26quot%3Bfont-size%3A+22px%3B%26quot%3B%22%3Esensor%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F107%22+style%3D%22%26quot%3Bfont-size%3A+10px%3B%26quot%3B%22%3Esequential+learning%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F4%22+style%3D%22%26quot%3Bfont-size%3A+28px%3B%26quot%3B%22%3Ewireless%3C%2Fa%3E+%0A%3Ca+href%3D%22%2F%3Fq%3Dtaxonomy%2Fterm%2F59%22+style%3D%22%26quot%3Bfont-         size%3A+12px%3B%26quot%3B%22%3Ewireless+sensor+networks%3C%2Fa%3E+%0A%3C%2Ftags%3E"); 
+                                        widget_so.write("tags");
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
@@ -63,13 +126,13 @@
                 <ul class="list-unstyled interests-list">
                     <li><p align="justify">Java <span class="lang-desc"> 10,000+ LoC </span></p></li>
                     <li><p align="justify"> Matlab <span class="lang-desc"> 10,000+ LoC </span></p></li>
-                    <li><p align="justify"> LaTex <span class="lang-desc"> 10,000+ LoC </span></p></li>
                     <li><p align="justify"> C/C++ <span class="lang-desc"> 5,000+ LoC </span></p></li>
                     <li><p align="justify"> Python <span class="lang-desc"> 5,000+ LoC </span></p></li>
                     <li><p align="justify"> Shell <span class="lang-desc"> 5,000+ LoC </span></p></li>
                 </ul>
-            </div><!--//interests-->
-            
+            </div><!--//Programming-container-->
+
+
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
@@ -77,7 +140,6 @@
                     <li>American Football</li>
                     <li>Body Building</li>
                     <li>Ukulele</li>
-                    <li>Cooking</li>
                 </ul>
             </div><!--//interests-->
             
@@ -228,7 +290,7 @@
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>      
 </body>
 </html> 
 
